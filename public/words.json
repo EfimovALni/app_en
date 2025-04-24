@@ -1,0 +1,1666 @@
+[
+  {
+    "en": "abandon",
+    "ru": "покинуть",
+    "transcription": "əˈbæn.dən",
+    "direction": "en-ru",
+    "options": [
+      "abandon_opt4",
+      "abandon_opt1",
+      "abandon_opt3",
+      "покинуть",
+      "abandon_opt2",
+      "abandon_opt5"
+    ],
+    "answer": "покинуть",
+    "correctCount": 0
+  },
+  {
+    "en": "abstract",
+    "ru": "абстрактный",
+    "transcription": "ˈæb.strækt",
+    "direction": "en-ru",
+    "options": [
+      "abstract_opt2",
+      "abstract_opt3",
+      "abstract_opt4",
+      "abstract_opt5",
+      "абстрактный",
+      "abstract_opt1"
+    ],
+    "answer": "абстрактный",
+    "correctCount": 0
+  },
+  {
+    "en": "academy",
+    "ru": "academy_ru",
+    "transcription": "[acad...]",
+    "direction": "en-ru",
+    "options": [
+      "academy_opt1",
+      "academy_opt4",
+      "academy_opt5",
+      "academy_opt2",
+      "academy_ru",
+      "academy_opt3"
+    ],
+    "answer": "academy_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "access",
+    "ru": "доступ",
+    "transcription": "ˈæk.ses",
+    "direction": "en-ru",
+    "options": [
+      "access_opt5",
+      "доступ",
+      "access_opt2",
+      "access_opt1",
+      "access_opt3",
+      "access_opt4"
+    ],
+    "answer": "доступ",
+    "correctCount": 0
+  },
+  {
+    "en": "accommodate",
+    "ru": "accommodate_ru",
+    "transcription": "[acco...]",
+    "direction": "en-ru",
+    "options": [
+      "accommodate_ru",
+      "accommodate_opt1",
+      "accommodate_opt4",
+      "accommodate_opt3",
+      "accommodate_opt5",
+      "accommodate_opt2"
+    ],
+    "answer": "accommodate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "accompany",
+    "ru": "сопровождать",
+    "transcription": "əˈkʌm.pə.ni",
+    "direction": "en-ru",
+    "options": [
+      "accompany_opt2",
+      "accompany_opt3",
+      "accompany_opt1",
+      "accompany_opt5",
+      "accompany_opt4",
+      "сопровождать"
+    ],
+    "answer": "сопровождать",
+    "correctCount": 0
+  },
+  {
+    "en": "accumulate",
+    "ru": "накапливать",
+    "transcription": "əˈkjuː.mjə.leɪt",
+    "direction": "en-ru",
+    "options": [
+      "accumulate_opt1",
+      "накапливать",
+      "accumulate_opt4",
+      "accumulate_opt2",
+      "accumulate_opt3",
+      "accumulate_opt5"
+    ],
+    "answer": "накапливать",
+    "correctCount": 0
+  },
+  {
+    "en": "accurate",
+    "ru": "accurate_ru",
+    "transcription": "[accu...]",
+    "direction": "en-ru",
+    "options": [
+      "accurate_opt5",
+      "accurate_opt1",
+      "accurate_opt4",
+      "accurate_opt3",
+      "accurate_ru",
+      "accurate_opt2"
+    ],
+    "answer": "accurate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "achieve",
+    "ru": "достигать",
+    "transcription": "əˈtʃiːv",
+    "direction": "en-ru",
+    "options": [
+      "achieve_opt5",
+      "достигать",
+      "achieve_opt2",
+      "achieve_opt3",
+      "achieve_opt1",
+      "achieve_opt4"
+    ],
+    "answer": "достигать",
+    "correctCount": 0
+  },
+  {
+    "en": "acknowledge",
+    "ru": "признавать",
+    "transcription": "əkˈnɒ.lɪdʒ",
+    "direction": "en-ru",
+    "options": [
+      "acknowledge_opt4",
+      "признавать",
+      "acknowledge_opt3",
+      "acknowledge_opt1",
+      "acknowledge_opt5",
+      "acknowledge_opt2"
+    ],
+    "answer": "признавать",
+    "correctCount": 0
+  },
+  {
+    "en": "acquire",
+    "ru": "приобретать",
+    "transcription": "əˈkwaɪə(r)",
+    "direction": "en-ru",
+    "options": [
+      "приобретать",
+      "acquire_opt3",
+      "acquire_opt2",
+      "acquire_opt1",
+      "acquire_opt4",
+      "acquire_opt5"
+    ],
+    "answer": "приобретать",
+    "correctCount": 0
+  },
+  {
+    "en": "adapt",
+    "ru": "адаптироваться",
+    "transcription": "əˈdæpt",
+    "direction": "en-ru",
+    "options": [
+      "adapt_opt3",
+      "adapt_opt4",
+      "adapt_opt2",
+      "адаптироваться",
+      "adapt_opt5",
+      "adapt_opt1"
+    ],
+    "answer": "адаптироваться",
+    "correctCount": 0
+  },
+  {
+    "en": "adequate",
+    "ru": "адекватный",
+    "transcription": "ˈæd.ɪ.kwət",
+    "direction": "en-ru",
+    "options": [
+      "adequate_opt5",
+      "adequate_opt1",
+      "adequate_opt3",
+      "adequate_opt2",
+      "адекватный",
+      "adequate_opt4"
+    ],
+    "answer": "адекватный",
+    "correctCount": 0
+  },
+  {
+    "en": "adjacent",
+    "ru": "adjacent_ru",
+    "transcription": "[adja...]",
+    "direction": "en-ru",
+    "options": [
+      "adjacent_opt3",
+      "adjacent_opt4",
+      "adjacent_opt5",
+      "adjacent_opt1",
+      "adjacent_ru",
+      "adjacent_opt2"
+    ],
+    "answer": "adjacent_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "adjust",
+    "ru": "adjust_ru",
+    "transcription": "[adju...]",
+    "direction": "en-ru",
+    "options": [
+      "adjust_opt5",
+      "adjust_opt2",
+      "adjust_opt4",
+      "adjust_ru",
+      "adjust_opt1",
+      "adjust_opt3"
+    ],
+    "answer": "adjust_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "administrate",
+    "ru": "administrate_ru",
+    "transcription": "[admi...]",
+    "direction": "en-ru",
+    "options": [
+      "administrate_opt2",
+      "administrate_opt4",
+      "administrate_opt3",
+      "administrate_opt1",
+      "administrate_ru",
+      "administrate_opt5"
+    ],
+    "answer": "administrate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "adult",
+    "ru": "adult_ru",
+    "transcription": "[adul...]",
+    "direction": "en-ru",
+    "options": [
+      "adult_opt2",
+      "adult_opt5",
+      "adult_opt1",
+      "adult_opt3",
+      "adult_ru",
+      "adult_opt4"
+    ],
+    "answer": "adult_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "advocate",
+    "ru": "advocate_ru",
+    "transcription": "[advo...]",
+    "direction": "en-ru",
+    "options": [
+      "advocate_opt3",
+      "advocate_opt1",
+      "advocate_opt5",
+      "advocate_opt2",
+      "advocate_opt4",
+      "advocate_ru"
+    ],
+    "answer": "advocate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "affect",
+    "ru": "affect_ru",
+    "transcription": "[affe...]",
+    "direction": "en-ru",
+    "options": [
+      "affect_ru",
+      "affect_opt2",
+      "affect_opt5",
+      "affect_opt4",
+      "affect_opt1",
+      "affect_opt3"
+    ],
+    "answer": "affect_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "aggregate",
+    "ru": "aggregate_ru",
+    "transcription": "[aggr...]",
+    "direction": "en-ru",
+    "options": [
+      "aggregate_opt4",
+      "aggregate_opt3",
+      "aggregate_opt2",
+      "aggregate_ru",
+      "aggregate_opt5",
+      "aggregate_opt1"
+    ],
+    "answer": "aggregate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "aid",
+    "ru": "aid_ru",
+    "transcription": "[aid...]",
+    "direction": "en-ru",
+    "options": [
+      "aid_ru",
+      "aid_opt5",
+      "aid_opt1",
+      "aid_opt2",
+      "aid_opt3",
+      "aid_opt4"
+    ],
+    "answer": "aid_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "albeit",
+    "ru": "albeit_ru",
+    "transcription": "[albe...]",
+    "direction": "en-ru",
+    "options": [
+      "albeit_ru",
+      "albeit_opt3",
+      "albeit_opt1",
+      "albeit_opt5",
+      "albeit_opt4",
+      "albeit_opt2"
+    ],
+    "answer": "albeit_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "allocate",
+    "ru": "allocate_ru",
+    "transcription": "[allo...]",
+    "direction": "en-ru",
+    "options": [
+      "allocate_opt3",
+      "allocate_opt5",
+      "allocate_opt2",
+      "allocate_opt4",
+      "allocate_ru",
+      "allocate_opt1"
+    ],
+    "answer": "allocate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "alter",
+    "ru": "alter_ru",
+    "transcription": "[alte...]",
+    "direction": "en-ru",
+    "options": [
+      "alter_opt1",
+      "alter_opt3",
+      "alter_opt5",
+      "alter_opt4",
+      "alter_opt2",
+      "alter_ru"
+    ],
+    "answer": "alter_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "alternative",
+    "ru": "alternative_ru",
+    "transcription": "[alte...]",
+    "direction": "en-ru",
+    "options": [
+      "alternative_opt1",
+      "alternative_opt3",
+      "alternative_opt2",
+      "alternative_opt5",
+      "alternative_ru",
+      "alternative_opt4"
+    ],
+    "answer": "alternative_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "ambiguous",
+    "ru": "ambiguous_ru",
+    "transcription": "[ambi...]",
+    "direction": "en-ru",
+    "options": [
+      "ambiguous_opt1",
+      "ambiguous_ru",
+      "ambiguous_opt3",
+      "ambiguous_opt4",
+      "ambiguous_opt5",
+      "ambiguous_opt2"
+    ],
+    "answer": "ambiguous_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "amend",
+    "ru": "amend_ru",
+    "transcription": "[amen...]",
+    "direction": "en-ru",
+    "options": [
+      "amend_ru",
+      "amend_opt1",
+      "amend_opt3",
+      "amend_opt4",
+      "amend_opt2",
+      "amend_opt5"
+    ],
+    "answer": "amend_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "analogy",
+    "ru": "analogy_ru",
+    "transcription": "[anal...]",
+    "direction": "en-ru",
+    "options": [
+      "analogy_opt3",
+      "analogy_ru",
+      "analogy_opt5",
+      "analogy_opt1",
+      "analogy_opt4",
+      "analogy_opt2"
+    ],
+    "answer": "analogy_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "analyze",
+    "ru": "analyze_ru",
+    "transcription": "[anal...]",
+    "direction": "en-ru",
+    "options": [
+      "analyze_opt1",
+      "analyze_ru",
+      "analyze_opt2",
+      "analyze_opt3",
+      "analyze_opt5",
+      "analyze_opt4"
+    ],
+    "answer": "analyze_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "annual",
+    "ru": "annual_ru",
+    "transcription": "[annu...]",
+    "direction": "en-ru",
+    "options": [
+      "annual_opt3",
+      "annual_ru",
+      "annual_opt2",
+      "annual_opt1",
+      "annual_opt4",
+      "annual_opt5"
+    ],
+    "answer": "annual_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "anticipate",
+    "ru": "anticipate_ru",
+    "transcription": "[anti...]",
+    "direction": "en-ru",
+    "options": [
+      "anticipate_opt5",
+      "anticipate_ru",
+      "anticipate_opt2",
+      "anticipate_opt3",
+      "anticipate_opt1",
+      "anticipate_opt4"
+    ],
+    "answer": "anticipate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "apparent",
+    "ru": "apparent_ru",
+    "transcription": "[appa...]",
+    "direction": "en-ru",
+    "options": [
+      "apparent_ru",
+      "apparent_opt1",
+      "apparent_opt4",
+      "apparent_opt3",
+      "apparent_opt5",
+      "apparent_opt2"
+    ],
+    "answer": "apparent_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "append",
+    "ru": "append_ru",
+    "transcription": "[appe...]",
+    "direction": "en-ru",
+    "options": [
+      "append_opt1",
+      "append_opt4",
+      "append_opt3",
+      "append_opt5",
+      "append_opt2",
+      "append_ru"
+    ],
+    "answer": "append_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "appreciate",
+    "ru": "appreciate_ru",
+    "transcription": "[appr...]",
+    "direction": "en-ru",
+    "options": [
+      "appreciate_opt3",
+      "appreciate_ru",
+      "appreciate_opt2",
+      "appreciate_opt4",
+      "appreciate_opt5",
+      "appreciate_opt1"
+    ],
+    "answer": "appreciate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "approach",
+    "ru": "approach_ru",
+    "transcription": "[appr...]",
+    "direction": "en-ru",
+    "options": [
+      "approach_opt2",
+      "approach_opt3",
+      "approach_opt1",
+      "approach_ru",
+      "approach_opt5",
+      "approach_opt4"
+    ],
+    "answer": "approach_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "appropriate",
+    "ru": "appropriate_ru",
+    "transcription": "[appr...]",
+    "direction": "en-ru",
+    "options": [
+      "appropriate_opt5",
+      "appropriate_ru",
+      "appropriate_opt2",
+      "appropriate_opt1",
+      "appropriate_opt4",
+      "appropriate_opt3"
+    ],
+    "answer": "appropriate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "approximate",
+    "ru": "approximate_ru",
+    "transcription": "[appr...]",
+    "direction": "en-ru",
+    "options": [
+      "approximate_opt1",
+      "approximate_opt3",
+      "approximate_opt5",
+      "approximate_ru",
+      "approximate_opt4",
+      "approximate_opt2"
+    ],
+    "answer": "approximate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "arbitrary",
+    "ru": "arbitrary_ru",
+    "transcription": "[arbi...]",
+    "direction": "en-ru",
+    "options": [
+      "arbitrary_ru",
+      "arbitrary_opt2",
+      "arbitrary_opt1",
+      "arbitrary_opt5",
+      "arbitrary_opt4",
+      "arbitrary_opt3"
+    ],
+    "answer": "arbitrary_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "area",
+    "ru": "area_ru",
+    "transcription": "[area...]",
+    "direction": "en-ru",
+    "options": [
+      "area_opt5",
+      "area_opt2",
+      "area_opt4",
+      "area_opt1",
+      "area_opt3",
+      "area_ru"
+    ],
+    "answer": "area_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "aspect",
+    "ru": "aspect_ru",
+    "transcription": "[aspe...]",
+    "direction": "en-ru",
+    "options": [
+      "aspect_opt5",
+      "aspect_ru",
+      "aspect_opt1",
+      "aspect_opt4",
+      "aspect_opt3",
+      "aspect_opt2"
+    ],
+    "answer": "aspect_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "assemble",
+    "ru": "assemble_ru",
+    "transcription": "[asse...]",
+    "direction": "en-ru",
+    "options": [
+      "assemble_ru",
+      "assemble_opt1",
+      "assemble_opt3",
+      "assemble_opt4",
+      "assemble_opt2",
+      "assemble_opt5"
+    ],
+    "answer": "assemble_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "assess",
+    "ru": "assess_ru",
+    "transcription": "[asse...]",
+    "direction": "en-ru",
+    "options": [
+      "assess_opt4",
+      "assess_opt1",
+      "assess_opt5",
+      "assess_ru",
+      "assess_opt3",
+      "assess_opt2"
+    ],
+    "answer": "assess_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "assign",
+    "ru": "assign_ru",
+    "transcription": "[assi...]",
+    "direction": "en-ru",
+    "options": [
+      "assign_opt1",
+      "assign_opt3",
+      "assign_opt5",
+      "assign_ru",
+      "assign_opt2",
+      "assign_opt4"
+    ],
+    "answer": "assign_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "assist",
+    "ru": "assist_ru",
+    "transcription": "[assi...]",
+    "direction": "en-ru",
+    "options": [
+      "assist_opt1",
+      "assist_opt4",
+      "assist_opt5",
+      "assist_ru",
+      "assist_opt2",
+      "assist_opt3"
+    ],
+    "answer": "assist_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "assume",
+    "ru": "assume_ru",
+    "transcription": "[assu...]",
+    "direction": "en-ru",
+    "options": [
+      "assume_opt3",
+      "assume_opt5",
+      "assume_opt2",
+      "assume_opt4",
+      "assume_opt1",
+      "assume_ru"
+    ],
+    "answer": "assume_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "assure",
+    "ru": "assure_ru",
+    "transcription": "[assu...]",
+    "direction": "en-ru",
+    "options": [
+      "assure_opt1",
+      "assure_opt2",
+      "assure_opt4",
+      "assure_opt3",
+      "assure_opt5",
+      "assure_ru"
+    ],
+    "answer": "assure_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "attach",
+    "ru": "attach_ru",
+    "transcription": "[atta...]",
+    "direction": "en-ru",
+    "options": [
+      "attach_opt3",
+      "attach_opt5",
+      "attach_ru",
+      "attach_opt4",
+      "attach_opt1",
+      "attach_opt2"
+    ],
+    "answer": "attach_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "attain",
+    "ru": "attain_ru",
+    "transcription": "[atta...]",
+    "direction": "en-ru",
+    "options": [
+      "attain_opt3",
+      "attain_opt2",
+      "attain_opt5",
+      "attain_opt1",
+      "attain_ru",
+      "attain_opt4"
+    ],
+    "answer": "attain_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "attitude",
+    "ru": "attitude_ru",
+    "transcription": "[atti...]",
+    "direction": "en-ru",
+    "options": [
+      "attitude_opt1",
+      "attitude_ru",
+      "attitude_opt3",
+      "attitude_opt5",
+      "attitude_opt4",
+      "attitude_opt2"
+    ],
+    "answer": "attitude_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "attribute",
+    "ru": "attribute_ru",
+    "transcription": "[attr...]",
+    "direction": "en-ru",
+    "options": [
+      "attribute_opt5",
+      "attribute_opt2",
+      "attribute_opt1",
+      "attribute_ru",
+      "attribute_opt3",
+      "attribute_opt4"
+    ],
+    "answer": "attribute_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "author",
+    "ru": "author_ru",
+    "transcription": "[auth...]",
+    "direction": "en-ru",
+    "options": [
+      "author_opt3",
+      "author_opt2",
+      "author_opt5",
+      "author_opt4",
+      "author_ru",
+      "author_opt1"
+    ],
+    "answer": "author_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "authority",
+    "ru": "authority_ru",
+    "transcription": "[auth...]",
+    "direction": "en-ru",
+    "options": [
+      "authority_opt3",
+      "authority_opt2",
+      "authority_opt4",
+      "authority_opt5",
+      "authority_ru",
+      "authority_opt1"
+    ],
+    "answer": "authority_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "automate",
+    "ru": "automate_ru",
+    "transcription": "[auto...]",
+    "direction": "en-ru",
+    "options": [
+      "automate_opt3",
+      "automate_opt5",
+      "automate_opt1",
+      "automate_opt2",
+      "automate_ru",
+      "automate_opt4"
+    ],
+    "answer": "automate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "available",
+    "ru": "available_ru",
+    "transcription": "[avai...]",
+    "direction": "en-ru",
+    "options": [
+      "available_opt5",
+      "available_opt2",
+      "available_opt1",
+      "available_ru",
+      "available_opt3",
+      "available_opt4"
+    ],
+    "answer": "available_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "aware",
+    "ru": "aware_ru",
+    "transcription": "[awar...]",
+    "direction": "en-ru",
+    "options": [
+      "aware_ru",
+      "aware_opt3",
+      "aware_opt1",
+      "aware_opt4",
+      "aware_opt2",
+      "aware_opt5"
+    ],
+    "answer": "aware_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "behalf",
+    "ru": "behalf_ru",
+    "transcription": "[beha...]",
+    "direction": "en-ru",
+    "options": [
+      "behalf_opt1",
+      "behalf_opt4",
+      "behalf_opt5",
+      "behalf_opt2",
+      "behalf_opt3",
+      "behalf_ru"
+    ],
+    "answer": "behalf_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "benefit",
+    "ru": "benefit_ru",
+    "transcription": "[bene...]",
+    "direction": "en-ru",
+    "options": [
+      "benefit_opt2",
+      "benefit_ru",
+      "benefit_opt4",
+      "benefit_opt1",
+      "benefit_opt5",
+      "benefit_opt3"
+    ],
+    "answer": "benefit_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "bias",
+    "ru": "bias_ru",
+    "transcription": "[bias...]",
+    "direction": "en-ru",
+    "options": [
+      "bias_opt1",
+      "bias_opt2",
+      "bias_opt5",
+      "bias_opt3",
+      "bias_opt4",
+      "bias_ru"
+    ],
+    "answer": "bias_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "bond",
+    "ru": "bond_ru",
+    "transcription": "[bond...]",
+    "direction": "en-ru",
+    "options": [
+      "bond_ru",
+      "bond_opt3",
+      "bond_opt4",
+      "bond_opt5",
+      "bond_opt1",
+      "bond_opt2"
+    ],
+    "answer": "bond_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "brief",
+    "ru": "brief_ru",
+    "transcription": "[brie...]",
+    "direction": "en-ru",
+    "options": [
+      "brief_opt2",
+      "brief_opt4",
+      "brief_ru",
+      "brief_opt3",
+      "brief_opt5",
+      "brief_opt1"
+    ],
+    "answer": "brief_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "bulk",
+    "ru": "bulk_ru",
+    "transcription": "[bulk...]",
+    "direction": "en-ru",
+    "options": [
+      "bulk_opt5",
+      "bulk_opt1",
+      "bulk_opt3",
+      "bulk_opt4",
+      "bulk_opt2",
+      "bulk_ru"
+    ],
+    "answer": "bulk_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "capable",
+    "ru": "capable_ru",
+    "transcription": "[capa...]",
+    "direction": "en-ru",
+    "options": [
+      "capable_ru",
+      "capable_opt5",
+      "capable_opt2",
+      "capable_opt4",
+      "capable_opt3",
+      "capable_opt1"
+    ],
+    "answer": "capable_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "capacity",
+    "ru": "capacity_ru",
+    "transcription": "[capa...]",
+    "direction": "en-ru",
+    "options": [
+      "capacity_opt4",
+      "capacity_opt3",
+      "capacity_opt5",
+      "capacity_ru",
+      "capacity_opt1",
+      "capacity_opt2"
+    ],
+    "answer": "capacity_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "category",
+    "ru": "category_ru",
+    "transcription": "[cate...]",
+    "direction": "en-ru",
+    "options": [
+      "category_opt5",
+      "category_opt3",
+      "category_opt2",
+      "category_opt1",
+      "category_opt4",
+      "category_ru"
+    ],
+    "answer": "category_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "cease",
+    "ru": "cease_ru",
+    "transcription": "[ceas...]",
+    "direction": "en-ru",
+    "options": [
+      "cease_ru",
+      "cease_opt1",
+      "cease_opt3",
+      "cease_opt2",
+      "cease_opt4",
+      "cease_opt5"
+    ],
+    "answer": "cease_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "challenge",
+    "ru": "challenge_ru",
+    "transcription": "[chal...]",
+    "direction": "en-ru",
+    "options": [
+      "challenge_opt1",
+      "challenge_opt5",
+      "challenge_opt3",
+      "challenge_opt2",
+      "challenge_ru",
+      "challenge_opt4"
+    ],
+    "answer": "challenge_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "channel",
+    "ru": "channel_ru",
+    "transcription": "[chan...]",
+    "direction": "en-ru",
+    "options": [
+      "channel_opt5",
+      "channel_opt2",
+      "channel_ru",
+      "channel_opt3",
+      "channel_opt1",
+      "channel_opt4"
+    ],
+    "answer": "channel_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "chapter",
+    "ru": "chapter_ru",
+    "transcription": "[chap...]",
+    "direction": "en-ru",
+    "options": [
+      "chapter_opt5",
+      "chapter_ru",
+      "chapter_opt2",
+      "chapter_opt1",
+      "chapter_opt4",
+      "chapter_opt3"
+    ],
+    "answer": "chapter_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "chart",
+    "ru": "chart_ru",
+    "transcription": "[char...]",
+    "direction": "en-ru",
+    "options": [
+      "chart_opt3",
+      "chart_ru",
+      "chart_opt2",
+      "chart_opt1",
+      "chart_opt5",
+      "chart_opt4"
+    ],
+    "answer": "chart_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "chemical",
+    "ru": "chemical_ru",
+    "transcription": "[chem...]",
+    "direction": "en-ru",
+    "options": [
+      "chemical_opt2",
+      "chemical_opt1",
+      "chemical_opt5",
+      "chemical_opt3",
+      "chemical_ru",
+      "chemical_opt4"
+    ],
+    "answer": "chemical_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "circumstance",
+    "ru": "circumstance_ru",
+    "transcription": "[circ...]",
+    "direction": "en-ru",
+    "options": [
+      "circumstance_opt2",
+      "circumstance_opt4",
+      "circumstance_ru",
+      "circumstance_opt1",
+      "circumstance_opt5",
+      "circumstance_opt3"
+    ],
+    "answer": "circumstance_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "cite",
+    "ru": "cite_ru",
+    "transcription": "[cite...]",
+    "direction": "en-ru",
+    "options": [
+      "cite_opt5",
+      "cite_opt3",
+      "cite_opt1",
+      "cite_ru",
+      "cite_opt2",
+      "cite_opt4"
+    ],
+    "answer": "cite_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "civil",
+    "ru": "civil_ru",
+    "transcription": "[civi...]",
+    "direction": "en-ru",
+    "options": [
+      "civil_ru",
+      "civil_opt4",
+      "civil_opt1",
+      "civil_opt2",
+      "civil_opt5",
+      "civil_opt3"
+    ],
+    "answer": "civil_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "clarify",
+    "ru": "clarify_ru",
+    "transcription": "[clar...]",
+    "direction": "en-ru",
+    "options": [
+      "clarify_opt3",
+      "clarify_opt1",
+      "clarify_opt4",
+      "clarify_ru",
+      "clarify_opt5",
+      "clarify_opt2"
+    ],
+    "answer": "clarify_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "classic",
+    "ru": "classic_ru",
+    "transcription": "[clas...]",
+    "direction": "en-ru",
+    "options": [
+      "classic_opt1",
+      "classic_opt2",
+      "classic_opt5",
+      "classic_opt3",
+      "classic_opt4",
+      "classic_ru"
+    ],
+    "answer": "classic_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "clause",
+    "ru": "clause_ru",
+    "transcription": "[clau...]",
+    "direction": "en-ru",
+    "options": [
+      "clause_opt2",
+      "clause_opt4",
+      "clause_ru",
+      "clause_opt1",
+      "clause_opt5",
+      "clause_opt3"
+    ],
+    "answer": "clause_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "code",
+    "ru": "code_ru",
+    "transcription": "[code...]",
+    "direction": "en-ru",
+    "options": [
+      "code_opt2",
+      "code_opt3",
+      "code_ru",
+      "code_opt1",
+      "code_opt5",
+      "code_opt4"
+    ],
+    "answer": "code_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "coherent",
+    "ru": "coherent_ru",
+    "transcription": "[cohe...]",
+    "direction": "en-ru",
+    "options": [
+      "coherent_opt4",
+      "coherent_opt3",
+      "coherent_opt1",
+      "coherent_ru",
+      "coherent_opt5",
+      "coherent_opt2"
+    ],
+    "answer": "coherent_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "coincide",
+    "ru": "coincide_ru",
+    "transcription": "[coin...]",
+    "direction": "en-ru",
+    "options": [
+      "coincide_opt5",
+      "coincide_opt3",
+      "coincide_ru",
+      "coincide_opt1",
+      "coincide_opt2",
+      "coincide_opt4"
+    ],
+    "answer": "coincide_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "collapse",
+    "ru": "collapse_ru",
+    "transcription": "[coll...]",
+    "direction": "en-ru",
+    "options": [
+      "collapse_opt1",
+      "collapse_opt5",
+      "collapse_ru",
+      "collapse_opt2",
+      "collapse_opt4",
+      "collapse_opt3"
+    ],
+    "answer": "collapse_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "colleague",
+    "ru": "colleague_ru",
+    "transcription": "[coll...]",
+    "direction": "en-ru",
+    "options": [
+      "colleague_opt5",
+      "colleague_ru",
+      "colleague_opt2",
+      "colleague_opt4",
+      "colleague_opt1",
+      "colleague_opt3"
+    ],
+    "answer": "colleague_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "commence",
+    "ru": "commence_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "commence_opt5",
+      "commence_opt1",
+      "commence_ru",
+      "commence_opt3",
+      "commence_opt2",
+      "commence_opt4"
+    ],
+    "answer": "commence_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "comment",
+    "ru": "comment_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "comment_opt5",
+      "comment_opt2",
+      "comment_opt3",
+      "comment_opt4",
+      "comment_ru",
+      "comment_opt1"
+    ],
+    "answer": "comment_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "commission",
+    "ru": "commission_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "commission_opt1",
+      "commission_opt3",
+      "commission_opt2",
+      "commission_opt4",
+      "commission_ru",
+      "commission_opt5"
+    ],
+    "answer": "commission_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "commit",
+    "ru": "commit_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "commit_opt4",
+      "commit_opt1",
+      "commit_opt3",
+      "commit_opt5",
+      "commit_opt2",
+      "commit_ru"
+    ],
+    "answer": "commit_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "commodity",
+    "ru": "commodity_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "commodity_opt2",
+      "commodity_opt1",
+      "commodity_opt3",
+      "commodity_ru",
+      "commodity_opt4",
+      "commodity_opt5"
+    ],
+    "answer": "commodity_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "communicate",
+    "ru": "communicate_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "communicate_opt2",
+      "communicate_ru",
+      "communicate_opt1",
+      "communicate_opt4",
+      "communicate_opt3",
+      "communicate_opt5"
+    ],
+    "answer": "communicate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "community",
+    "ru": "community_ru",
+    "transcription": "[comm...]",
+    "direction": "en-ru",
+    "options": [
+      "community_opt1",
+      "community_opt5",
+      "community_opt4",
+      "community_ru",
+      "community_opt2",
+      "community_opt3"
+    ],
+    "answer": "community_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "compatible",
+    "ru": "compatible_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "compatible_opt2",
+      "compatible_opt3",
+      "compatible_opt5",
+      "compatible_opt1",
+      "compatible_opt4",
+      "compatible_ru"
+    ],
+    "answer": "compatible_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "compensate",
+    "ru": "compensate_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "compensate_opt2",
+      "compensate_opt5",
+      "compensate_opt3",
+      "compensate_opt1",
+      "compensate_opt4",
+      "compensate_ru"
+    ],
+    "answer": "compensate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "compile",
+    "ru": "compile_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "compile_opt4",
+      "compile_opt3",
+      "compile_ru",
+      "compile_opt5",
+      "compile_opt2",
+      "compile_opt1"
+    ],
+    "answer": "compile_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "complement",
+    "ru": "complement_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "complement_opt5",
+      "complement_opt2",
+      "complement_opt3",
+      "complement_opt4",
+      "complement_opt1",
+      "complement_ru"
+    ],
+    "answer": "complement_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "complex",
+    "ru": "complex_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "complex_opt5",
+      "complex_opt4",
+      "complex_opt3",
+      "complex_ru",
+      "complex_opt1",
+      "complex_opt2"
+    ],
+    "answer": "complex_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "component",
+    "ru": "component_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "component_opt2",
+      "component_opt4",
+      "component_opt3",
+      "component_ru",
+      "component_opt5",
+      "component_opt1"
+    ],
+    "answer": "component_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "compound",
+    "ru": "compound_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "compound_opt5",
+      "compound_opt3",
+      "compound_opt4",
+      "compound_opt2",
+      "compound_ru",
+      "compound_opt1"
+    ],
+    "answer": "compound_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "comprehensive",
+    "ru": "comprehensive_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "comprehensive_ru",
+      "comprehensive_opt3",
+      "comprehensive_opt4",
+      "comprehensive_opt2",
+      "comprehensive_opt1",
+      "comprehensive_opt5"
+    ],
+    "answer": "comprehensive_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "comprise",
+    "ru": "comprise_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "comprise_opt4",
+      "comprise_ru",
+      "comprise_opt3",
+      "comprise_opt1",
+      "comprise_opt5",
+      "comprise_opt2"
+    ],
+    "answer": "comprise_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "compute",
+    "ru": "compute_ru",
+    "transcription": "[comp...]",
+    "direction": "en-ru",
+    "options": [
+      "compute_opt1",
+      "compute_opt2",
+      "compute_ru",
+      "compute_opt4",
+      "compute_opt5",
+      "compute_opt3"
+    ],
+    "answer": "compute_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "conceive",
+    "ru": "conceive_ru",
+    "transcription": "[conc...]",
+    "direction": "en-ru",
+    "options": [
+      "conceive_ru",
+      "conceive_opt4",
+      "conceive_opt3",
+      "conceive_opt5",
+      "conceive_opt1",
+      "conceive_opt2"
+    ],
+    "answer": "conceive_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "concentrate",
+    "ru": "concentrate_ru",
+    "transcription": "[conc...]",
+    "direction": "en-ru",
+    "options": [
+      "concentrate_opt3",
+      "concentrate_opt5",
+      "concentrate_opt4",
+      "concentrate_ru",
+      "concentrate_opt2",
+      "concentrate_opt1"
+    ],
+    "answer": "concentrate_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "concept",
+    "ru": "concept_ru",
+    "transcription": "[conc...]",
+    "direction": "en-ru",
+    "options": [
+      "concept_opt5",
+      "concept_opt2",
+      "concept_opt3",
+      "concept_ru",
+      "concept_opt4",
+      "concept_opt1"
+    ],
+    "answer": "concept_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "conclude",
+    "ru": "conclude_ru",
+    "transcription": "[conc...]",
+    "direction": "en-ru",
+    "options": [
+      "conclude_ru",
+      "conclude_opt5",
+      "conclude_opt1",
+      "conclude_opt2",
+      "conclude_opt4",
+      "conclude_opt3"
+    ],
+    "answer": "conclude_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "concurrent",
+    "ru": "concurrent_ru",
+    "transcription": "[conc...]",
+    "direction": "en-ru",
+    "options": [
+      "concurrent_opt5",
+      "concurrent_opt3",
+      "concurrent_ru",
+      "concurrent_opt1",
+      "concurrent_opt2",
+      "concurrent_opt4"
+    ],
+    "answer": "concurrent_ru",
+    "correctCount": 0
+  },
+  {
+    "en": "conduct",
+    "ru": "conduct_ru",
+    "transcription": "[cond...]",
+    "direction": "en-ru",
+    "options": [
+      "conduct_ru",
+      "conduct_opt4",
+      "conduct_opt3",
+      "conduct_opt1",
+      "conduct_opt2",
+      "conduct_opt5"
+    ],
+    "answer": "conduct_ru",
+    "correctCount": 0
+  }
+]
