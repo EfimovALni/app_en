@@ -1,32 +1,95 @@
-import json
-import random
+import { useState, useEffect } from "react";
 
-# Используем список 570 слов
-word_list = """
-abandon abstract academy access accommodate accompany accumulate accurate achieve acknowledge acquire adapt adequate adjacent adjust administrate adult advocate affect aggregate aid albeit allocate alter alternative ambiguous amend analogy analyze annual anticipate apparent append appreciate approach appropriate approximate arbitrary area aspect assemble assess assign assist assume assure attach attain attitude attribute author authority automate available aware behalf benefit bias bond brief bulk capable capacity category cease challenge channel chapter chart chemical circumstance cite civil clarify classic clause code coherent coincide collapse colleague commence comment commission commit commodity communicate community compatible compensate compile complement complex component compound comprehensive comprise compute conceive concentrate concept conclude concurrent conduct confer confine confirm conflict conform consent consequent considerable consist constant constitute constrain construct consult consume contact contemporary context contract contradict contrary contrast contribute controversy convene converse convert convince cooperate coordinate core corporate correspond couple create credit criteria crucial culture currency cycle data debate decade decline deduce define definite demonstrate denote deny depress derive design despite detect deviate device devote differentiate dimension diminish discrete discriminate displace display dispose distinct distort distribute diverse document domain domestic dominate draft drama duration dynamic economy edit element eliminate emerge emphasis empirical enable encounter energy enforce enhance enormous ensure entity environment equate equip equivalent erode error establish estate estimate ethic ethnic evaluate eventual evident evolve exceed exclude exhibit expand expert explicit exploit export expose external extract facilitate factor feature federal fee file final finance finite flexible fluctuate focus format formula forthcoming foundation found framework function fund fundamental furthermore gender generate generation globe goal grade grant guarantee guideline hence hierarchy highlight hypothesis identical identify ideology ignorance illustrate image immigrate impact implement implicate implicit imply impose incentive incidence incline income incorporate index indicate individual induce inevitable infer infrastructure inherent inhibit initial initiate injure innovate input insert insight inspect instance institute instruct integral integrate integrity intelligence intense interact intermediate internal interpret interval intervene intrinsic invest investigate invoke involve isolate issue item job journal justify label labor layer lecture legal legislate levy liberal license likewise link locate logic maintain major manipulate manual margin mature maximize mechanism media mediate medical medium mental method migrate military minimal minimize minimum ministry minor mode modify monitor motive mutual negate network neutral nevertheless nonetheless norm normal notion notwithstanding nuclear objective obtain obvious occupy occur odd offset ongoing option orient outcome output overall overlap overseas panel paradigm paragraph parallel parameter participate partner passive perceive percent period persist perspective phase phenomenon philosophy physical plus policy portion pose positive potential practitioner precede precise predict predominant preliminary presume previous primary prime principal principle prior priority proceed process professional prohibit project promote proportion prospect protocol psychology publication publish purchase pursue qualitative quote radical random range ratio rational react recover refine regime region register regulate reinforce reject relax release relevant reluctance rely remove require research reside resolve resource respond restore restrain restrict retain reveal revenue reverse revise revolution rigid role route scenario schedule scheme scope section sector secure seek select sequence series sex shift significant similar simulate site so-called sole somewhat source specific specify sphere stable statistic status straightforward strategy stress structure style submit subordinate subsequent subsidy substitute successor sufficient sum summary supplement survey survive suspend sustain symbol tape target task team technical technique technology temporary tense terminate text theme theory thereby thesis topic trace tradition transfer transform transit transmit transport trend trigger ultimate undergo underlie undertake uniform unify unique utilize valid vary vehicle version via violate virtual visible vision visual volume voluntary welfare whereas whereby widespread
-""".strip().split()
+export default function VocabTrainer() {
+  const [wordList, setWordList] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [selected, setSelected] = useState(null);
+  const [showOnlyUnlearned, setShowOnlyUnlearned] = useState(false);
 
-# Используем слова в качестве переводов для других слов
-def generate_entry(word, full_list):
-    translations = [w + " (перевод)" for w in full_list if w != word]
-    answer = word + " (перевод)"
-    options = random.sample(translations, 5) + [answer]
-    random.shuffle(options)
-    return {
-        "en": word,
-        "ru": answer,
-        "transcription": f"[{word[:4]}...]",
-        "direction": "en-ru",
-        "options": options,
-        "answer": answer,
-        "correctCount": 0
+  useEffect(() => {
+    fetch('/words_full_570.json')
+      .then((res) => res.json())
+      .then((data) => setWordList(data));
+  }, []);
+
+  const current = wordList[currentIndex];
+  const isCorrect = selected === current?.answer;
+
+  const handleSelect = (option) => {
+    setSelected(option);
+  };
+
+  useEffect(() => {
+    if (selected !== null && current) {
+      const timeout = setTimeout(() => {
+        const updatedWords = [...wordList];
+        const updated = { ...current };
+
+        if (isCorrect) {
+          updated.correctCount = (updated.correctCount || 0) + 1;
+        }
+
+        updatedWords.splice(currentIndex, 1, updated);
+
+        const filtered = showOnlyUnlearned
+          ? updatedWords.filter(w => (w.correctCount || 0) < 3)
+          : updatedWords;
+
+        const nextIndex = (currentIndex + 1) % filtered.length;
+
+        setWordList(updatedWords);
+        setCurrentIndex(nextIndex);
+        setSelected(null);
+      }, 1000);
+      return () => clearTimeout(timeout);
     }
+  }, [selected]);
 
-entries = [generate_entry(word, word_list) for word in word_list[:570]]
+  if (!current) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-xl font-semibold text-white bg-black">
+        🎉 Все слова выучены!
+      </div>
+    );
+  }
 
-# Сохраняем в файл
-path = "/mnt/data/words_realistic_570.json"
-with open(path, "w", encoding="utf-8") as f:
-    json.dump(entries, f, ensure_ascii=False, indent=2)
+  const displayQuestion = current.direction === "ru-en" ? current.ru : current.en;
+  const showTranscription = current.transcription;
+  const displayOptions = current.options;
+  const learnedCount = wordList.filter(w => (w.correctCount || 0) >= 3).length;
+  const progress = Math.round((learnedCount / wordList.length) * 100);
 
-path
+  return (
+    <div className="min-h-screen w-full max-w-sm mx-auto px-4 py-6 flex flex-col items-center justify-start space-y-6 text-center bg-black text-white">
+      <h2 className="text-xl font-bold">Урок {currentIndex + 1}</h2>
+      <div className="text-3xl font-extrabold">{displayQuestion}</div>
+      {showTranscription && <div className="text-md text-gray-400">{showTranscription}</div>}
+
+      <div className="grid grid-cols-2 grid-rows-3 gap-4 w-full mt-4">
+        {displayOptions.map((opt, idx) => (
+          <button
+            key={idx}
+            onClick={() => handleSelect(opt)}
+            className={`h-20 flex items-center justify-center py-2 px-2 rounded-xl border text-base font-medium transition duration-300
+              ${selected === opt ? (isCorrect ? 'bg-green-600' : 'bg-red-600') : 'bg-gray-800 hover:bg-gray-700'}`}
+          >
+            {opt}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-8 text-sm w-full text-left">
+        <label className="inline-flex items-center">
+          <input
+            type="checkbox"
+            checked={showOnlyUnlearned}
+            onChange={() => setShowOnlyUnlearned(!showOnlyUnlearned)}
+            className="mr-2"
+          />
+          Показывать только невыученные
+        </label>
+        <div className="mt-2">✅ Прогресс: {learnedCount} / {wordList.length} — <strong>{progress}%</strong></div>
+      </div>
+    </div>
+  );
+}
